@@ -1,4 +1,4 @@
-export default function MetricCard({ label, value, subtext, color, icon }) {
+export default function MetricCard({ label, value, subtext = null, color = null, icon = null }) {
   return (
     <div
       style={{
